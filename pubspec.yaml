@@ -1,0 +1,52 @@
+name: technical_template
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  retrofit: ^2.0.0-beta1
+
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.0
+  mobx: ^2.0.5
+  flutter_mobx: ^2.0.2
+  flutter_feather_icons: ^2.0.0+1
+  settings_ui: ^1.0.0
+
+dev_dependencies:
+  retrofit_generator: ^2.0.0-beta3
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.0.3
+  mobx_codegen: ^2.0.4
+  build_runner: ^2.1.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/app/global/assets/images/covers/cem_anos_de_solidao.jpg
+    - lib/app/global/assets/images/covers/guia_do_mochileiro.jpg
+    - lib/app/global/assets/images/covers/it.jpg
+    - lib/app/global/assets/images/covers/revolucao_dos_bixos.jpg
+    - lib/app/global/assets/images/covers/divina_comedia.jpg
+    - lib/app/global/assets/icons/sun.svg
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: lib/app/global/assets/fonts/Montserrat_Regular.ttf
+        - asset: lib/app/global/assets/fonts/Montserrat_Bold.ttf
+          weight: 700
+        - asset: lib/app/global/assets/fonts/Montserrat_SemiBold.ttf
+          weight: 600
+    - family: Lora
+      fonts:
+        - asset: lib/app/global/assets/fonts/Lora.ttf
